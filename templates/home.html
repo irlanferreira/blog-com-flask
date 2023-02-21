@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <header>
+        <h1>NeiroBlog</h1>
+        <a href="/postar/" class="botao faca-um-post"><div>Faça um post</div></a>
+    </header>
+    {%for post in posts%}
+    <a href="/post/{{post['id']}}">
+        <div class="post">
+        <div class="post-texto">
+            <p>{{post['texto']}}</p>
+        </div>
+        <div class="post-data">
+            <p>{{post['hora']}} - {{post['data']}}</p>
+        </div>
+    </div>
+    </a>
+    {%endfor%}
+</body>
+</html>
+<link rel="stylesheet" href="..//static//css//core.css">
+<link rel="stylesheet" href="..//static/css/home.css">

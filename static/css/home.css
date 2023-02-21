@@ -1,0 +1,27 @@
+a{
+    color: inherit;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+}
+.faca-um-post{
+    color: white;
+    background-color: rgb(98, 164, 94);
+    margin: 0.2em 1em;
+}
+div.post-texto{
+    font-size: 1.1em;
+    padding: 1em;
+    background-color: rgb(243, 243, 243);
+
+}
+div.post-data{
+    font-size: 0.8em;
+    padding: 0.5em;
+}
+div.post{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.091);
+}
